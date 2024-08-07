@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Paprika&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +25,6 @@ nav {
     padding-right: 5%;
     font-weight: bold;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.137);
-
 }
 
 /* nav img {
@@ -165,7 +163,7 @@ h3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     padding: 3rem auto;
     align-items: center;
     justify-content: center;
@@ -189,7 +187,7 @@ h3 {
     flex-direction: column;
 }
 .row .container-text p {
-    font-size: 1.5rem;
+    font-size: 1,5rem;
     font-family: "Paprika", system-ui;
     text-align: center;
     color: #400414;
