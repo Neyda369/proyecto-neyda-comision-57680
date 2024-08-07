@@ -188,7 +188,7 @@ h3 {
 }
 
 .row .container-text p {
-    font-size: 1,5rem;
+    font-size: 1, 5rem;
     font-family: "Paprika", system-ui;
     text-align: center;
     color: #400414;
@@ -297,7 +297,7 @@ h3 {
 
 #img-fondo-1 {
     width: 100%;
-    height: 50vh;
+    height: 30vh;
     background-image: url(../assets/img/fondos/img-fondo-2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -322,7 +322,15 @@ h3 {
     background-size: cover;
 }
 
-/*css tratamiento*/
+/*Estilos tratamientos*/
+
+.section {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
 
 .section-beige {
     width: 100%;
@@ -391,6 +399,50 @@ h3 {
     padding: 3rem;
 }
 
+/* Estilos Planes-Cards */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    width: 20.3125rem;
+    background-color: #D9BC9A;
+    border: .5rem;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.164);
+    margin: 20px;
+   
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+.card-content h3 {
+    font-size: 1.75rem;
+    margin-bottom: .5rem;
+    
+}
+
+.card-content p {
+    font-size: 1rem;
+    line-height: 1.4;
+
+}
+
+
+
+
 /* Responsive Tratamiento */
 
 
@@ -410,16 +462,42 @@ h3 {
         font: 1rem;
         line-height: 1.25rem;
     }
+}
 
+@media (max-width: 425px) {
+    .article-container {
+        width: 100%;
+        padding: 0rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .article-container .img-left img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 0.3s;
+    }
+}
+
+@media (max-width: 425px) {
+    .section-beige {
+       padding: 1rem 0rem 1rem 0rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .section-white {
+       padding: 1rem 0rem 1rem 0rem;
+
+       
+    }
 }
 
 
 
 
 
-}
-
-}
 
 
-/*font-family: "Great Vibes", cursive; font-family: "Paprika", system-ui; font-family: "Italianno", cursive; font-family: "Dancing Script", cursive;*/
+    /*font-family: "Great Vibes", cursive; font-family: "Paprika", system-ui; font-family: "Italianno", cursive; font-family: "Dancing Script", cursive;*/
