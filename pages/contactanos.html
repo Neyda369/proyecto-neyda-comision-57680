@@ -57,58 +57,58 @@
                 </div>
             </div>
         </section>
-        <div>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d98517.68134356882!2d2.6719401390625!3d39.499195300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x12979259c61ac757%3A0xc40d5406c3d058c6!2spalma!3m2!1d39.5696005!2d2.6501603!4m5!1s0x1297964bf491046b%3A0xf012fb47d3a8fb4f!2sEl%20Arenal%2C%20Illes%20Balears%2C%20Espa%C3%B1a!3m2!1d39.4991953!2d2.7543376!5e0!3m2!1ses!2sve!4v1720650969931!5m2!1ses!2sve"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <iframe src="" frameborder="0"></iframe>
+
+        <div class="container-contact">
+            <div class="contact">
+                <div class="contact-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d98517.68134356882!2d2.6719401390625!3d39.499195300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x12979259c61ac757%3A0xc40d5406c3d058c6!2spalma!3m2!1d39.5696005!2d2.6501603!4m5!1s0x1297964bf491046b%3A0xf012fb47d3a8fb4f!2sEl%20Arenal%2C%20Illes%20Balears%2C%20Espa%C3%B1a!3m2!1d39.4991953!2d2.7543376!5e0!3m2!1ses!2sve!4v1720650969931!5m2!1ses!2sve"
+                        width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="" frameborder="0"></iframe>
+                </div>
+                <div class="contact-form">
+                    <form action="">
+                        <label for="nombre"></label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="contact-form-txt">
+                        <label for="email"></label>
+                        <input type="email" name="email" placeholder="Correo electrónico" class="contact-form-txt">
+                        <label for="texto"></label>
+                        <textarea name="texto" id="texto" rows="4" cols="4" placeholder="Mensaje"
+                            class="contact-form-textarea"></textarea>
+                        <input type="submit" class="contact-form-btn">
+                    </form>
+                </div>
+            </div>
         </div>
-        <div>
-            <form action="">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Nombre">
-                <label for="email">Email:</label>
-                <input type="email" name="email" placeholder="Correo electrónico">
-                <label for="texto">Mensaje:</label>
-                <textarea name="texto" id="texto" rows="20" cols="60"></textarea>
-                <input type="submit">
-            </form>
-        </div>
-        <section>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/azMZn-bDgi4?si=a0R9rNnsj5hTBt5D"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/g5u4tQe-nQg?si=zzxAe-7mjcjLpW0s"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/rjZ0hPRRvPo?si=IPMoUadUuaBXVZvT"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </section>
 
     </main>
 
-    <footer>
-        <div>
-            <img class="logo" src="../assets/img/logo-etereo-spa.png"
-                alt="logo de etéreo spa fondo negro con letra doradas">
-            <h4>Síguenos</h4>
-            <ul>
-                <li>Facebook</li>
-                <li>Instagram</li>
-            </ul>
-            <h4>Reserva</h4>
-            <ul>
-                <li>Teléfono 1</li>
-                <li>Teléfono 2</li>
-            </ul>
-            <p>
-                Etéreo Spa © 2010. Todos los Derechos Reservados.
-            </p>
+    <footer class="footer">
+        <div class="group-1">
+            <div class="box">
+                <a href="#">
+                    <img class="logo" src="../assets/img/logo-etereo-spa.png"
+                        alt="logo de etéreo spa fondo negro con letra doradas">
+                </a>
+            </div>
+            <div class="box">
+                <h4>SÍGUENOS</h4>
+                <ul class="red-social">
+                    <li><a href="#" class="fa fa-facebook">Facebook</a></li>
+                    <li><a href="#" class="fa fa-instagram">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h4>RESERVA</h4>
+                <ul class="reserva">
+                    <li>Teléfono 1</li>
+                    <li>Teléfono 2</li>
+                </ul>
+            </div>
+        </div>
+        <div class="group-2">
+            <small>&copy; 2010 <b>Etéreo Spa</b> - Todos los derechos reservados. </small>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
