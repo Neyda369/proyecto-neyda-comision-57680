@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Paprika&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Paprika&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #D9D9D9;
+  margin: 0px 10px; }
+
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  background-color: #D9BC9A;
+  color: #400414;
+  width: 8rem;
+  padding: .5rem;
+  text-align: center;
+  text-transform: uppercase;
+  border-color: #8C3048;
+  border-radius: .3125rem;
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.288);
+  margin-top: 1.25rem; }
+
+header {
+  margin-bottom: 1rem; }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.137); }
+
+ul li {
+  display: inline-block;
+  padding: 0rem 1.25rem; }
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.logo {
+  width: 5rem;
+  border-radius: 100%; }
+
+.footer {
+  width: 100%;
+  background-color: whitesmoke;
+  margin-top: 2.5rem; }
+  .footer .group-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px; }
+    .footer .group-1 .box {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      .footer .group-1 .box h4 {
+        color: rgba(0, 0, 0, 0.733);
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 30px; }
+      .footer .group-1 .box .red-social {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1.25rem; }
+        .footer .group-1 .box .red-social ul li a {
+          display: inline-block;
+          text-decoration: none;
+          width: 45px;
+          height: 45px;
+          margin-right: 10px;
+          text-align: center;
+          transition: all 300ms ease; }
+        .footer .group-1 .box .red-social a:hover {
+          color: #8C3048; }
+  .footer .group-1 .reserva {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1.25rem; }
+  .footer .group-2 {
+    padding: .9375rem .625rem;
+    text-align: center; }
+    .footer .group-2 small {
+      font-size: .9375rem; }
+
+.hero {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../assets/img/terapias/masaje-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.container {
+  width: 90%;
+  height: 100%;
+  max-width: 75rem;
+  min-width: 10rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+  .container .info h1 {
+    font-family: "Italianno", cursive;
+    font-size: 6rem;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    font-weight: 200; }
+  .container .info p {
+    font-family: "Paprika", system-ui;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem; }
+  .container .info .p-hero {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white; }
+
+h2 {
+  color: #1E1E1E;
+  text-align: center;
+  font-family: "Paprika", system-ui;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 3rem;
+  color: #8C6E49; }
+
+.container-beige {
+  background-color: #D9BC9A;
+  display: flex;
+  justify-content: space-evenly;
+  width: auto;
+  padding: 4.375rem; }
+
+.container-beige-planes {
+  width: 100%;
+  height: auto;
+  text-align: center; }
+  .container-beige-planes .img-planes img {
+    width: 20rem;
+    height: auto;
+    object-fit: contain;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267); }
+
+h3 {
+  font-family: "Paprika", system-ui;
+  font-size: 1.375rem;
+  color: #400414;
+  padding: .625rem; }
+
+.container-white {
+  background-color: white;
+  width: auto;
+  padding: 2rem; }
+
+.row {
+  width: 100%;
+  max-width: 73rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  overflow-y: hidden;
+  padding: 3rem auto;
+  align-items: center;
+  justify-content: center; }
+  .row .img-hospedaje img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: 0, 3s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267); }
+  .row .container-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .row .container-text p {
+      font-size: 1, 5rem;
+      font-family: "Paprika", system-ui;
+      text-align: center;
+      color: #400414;
+      margin-bottom: 1.25rem; }
+
+.img-fondo-1 {
+  width: 100%;
+  height: 30vh;
+  background-image: url(../assets/img/fondos/img-fondo-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.container {
+  width: 90%;
+  height: 100%;
+  max-width: 75rem;
+  min-width: 10rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+  .container .info-black h1 {
+    font-family: "Paprika", system-ui;
+    font-size: 2rem;
+    font-style: normal;
+    text-align: center;
+    color: black; }
+  .container .info-black p {
+    font-family: "Paprika", system-ui;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    margin-bottom: 1rem; }
+
+.container .info-black h1 {
+  font-family: "Paprika", system-ui;
+  font-size: 2rem;
+  font-style: normal;
+  text-align: center;
+  color: black; }
+
+.section {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-items: center; }
+
+.section-beige {
+  width: 100%;
+  height: auto;
+  background-color: #D9BC9A;
+  margin-top: 3rem;
+  place-items: center;
+  font-family: "Paprika", system-ui;
+  display: grid;
+  padding: 3rem; }
+
+.article-container {
+  width: 100%;
+  max-width: 73rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  /* overflow-x: hidden; */
+  padding: 2rem auto;
+  align-items: center;
+  justify-content: center; }
+  .article-container .img-left {
+    overflow: hidden;
+    transition: 4s; }
+    .article-container .img-left:hover {
+      transform: scale(1.25);
+      transition: 4s; }
+    .article-container .img-left img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: 0.3s; }
+
+.container-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1.875rem; }
+  .container-text .text h2 {
+    font-size: 1.875rem;
+    padding: 0rem 2rem 2rem 2rem; }
+  .container-text .text p {
+    font: 1rem;
+    line-height: 1.5625rem; }
+
+.section-white {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin-top: 3rem;
+  place-items: center;
+  font-family: "Paprika", system-ui;
+  display: grid;
+  padding: 3rem; }
+
+.img-fondo-2 {
+  width: 100%;
+  height: 50vh;
+  background-image: url(../assets/img/fondos/img-fondo-8.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.img-fondo-3 {
+  width: 100%;
+  height: 50vh;
+  background-image: url(../assets/img/fondos/img-fondo-spa-22.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px; }
+
+.card {
+  width: 20.3125rem;
+  background-color: #D9BC9A;
+  border: .5rem;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.164);
+  margin: 20px; }
+  .card img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover; }
+
+.card-content {
+  padding: 1rem; }
+  .card-content h3 {
+    font-size: 1.75rem;
+    margin-bottom: .5rem; }
+  .card-content p {
+    font-size: 1rem;
+    line-height: 1.4; }
+
+.img-fondo-4 {
+  width: 100%;
+  height: 50vh;
+  background-image: url(../assets/img/fondos/img-fondo-4.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.container-contact {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.contact {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: .625rem;
+  border-radius: .5rem;
+  box-shadow: 0px 0px 10px 0px #666;
+  background: #fff; }
+
+.contact-map {
+  width: 100%;
+  height: auto;
+  flex: 50%; }
+  .contact-map iframe {
+    width: 100%;
+    height: 100%;
+    margin-top: .625rem; }
+
+.contact-form {
+  width: 100%;
+  height: auto;
+  flex: 50%;
+  text-align: center;
+  padding: 1.875rem; }
+
+.contact-form-txt {
+  width: 100%;
+  height: 2.5rem;
+  color: #000;
+  border: .0625rem solid #bcbcbc;
+  outline: none;
+  margin-bottom: 1.25rem;
+  padding: .9375rem;
+  border-radius: .625rem; }
+  .contact-form-txt::placeholder {
+    color: #aaa; }
+
+.contact-form-textarea {
+  width: 100%;
+  height: 8.125rem;
+  color: #000;
+  border: .0625rem solid #bcbcbc;
+  outline: none;
+  margin-bottom: 1.25rem;
+  padding: .9375rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: .625rem; }
+  .contact-form-textarea::placeholder {
+    color: #aaa; }

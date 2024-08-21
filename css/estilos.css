@@ -177,9 +177,9 @@ h3 {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
 }
 
-/* .row .img-hospedaje:hover img {
+.row .img-hospedaje:hover img {
     transform: scale(1.25);
-} */
+} 
 
 .row .container-text {
     display: flex;
@@ -222,7 +222,7 @@ h3 {
 
 .footer .group-1 .box h4 {
     color: black;
-    margin-bottom: ´1.5625rem;
+    margin-bottom: 1.5625rem;
     font-size: 1.25rem;
     font-family: Arial, Helvetica, sans-serif;
 
