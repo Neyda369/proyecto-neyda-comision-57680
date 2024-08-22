@@ -419,18 +419,6 @@ h2 {
   .contact-form-textarea::placeholder {
     color: #aaaaaa; }
 
-@media (max-width: 991px) {
-  .article-container {
-    grid-template-columns: 1fr;
-    padding: 1rem auto; } }
-
-@media (max-width: 991px) {
-  .article-container {
-    width: 80%; }
-  .container-text .text p {
-    font: 1rem;
-    line-height: 1.25rem; } }
-
 @media (max-width: 425px) {
   .article-container {
     width: 100%;
@@ -451,9 +439,30 @@ h2 {
   .section-white {
     padding: 1rem 0rem 1rem 0rem; } }
 
-@media (max-width: 800px) {
+@media (max-width: 473px) {
+  .contact-form {
+    margin-top: 1rem; }
+  .container-contact {
+    margin-bottom: 380px; } }
+
+@media (max-width: 473px) {
+  .contact-form {
+    margin-top: 1rem; }
+  .container-contact {
+    margin-bottom: 380px; } }
+
+@media (max-width: 625px) {
   .footer .group-1 {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     padding: 35px 0px; } }
+
+@media (max-width: 991px) {
+  .article-container {
+    grid-template-columns: 1fr;
+    padding: 1rem auto;
+    width: 80%; }
+    .article-container .container-text .text p {
+      font: 1rem;
+      line-height: 1.25rem; } }
