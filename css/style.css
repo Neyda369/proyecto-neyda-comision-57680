@@ -152,7 +152,7 @@ h2 {
   font-family: "Paprika", system-ui;
   font-size: 1.6rem;
   text-align: center;
-  color: #8C6E49;
+  color: #9a5f3f;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -284,7 +284,7 @@ h2 {
     overflow: hidden;
     transition: 4s; }
     .article-container .img-left:hover {
-      transform: scale(1.25);
+      transform: scale(1.1);
       transition: 4s; }
     .article-container .img-left img {
       width: 100%;
