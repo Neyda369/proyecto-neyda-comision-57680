@@ -1,12 +1,15 @@
 @media (max-width: 991px) {
     .article-container {
         grid-template-columns: 1fr;
-        padding: 1rem auto;
         width: 80%;
 
-        .container-text .text p {
-            font: 1rem;
-            line-height: 1.25rem;
+        .container-text {
+            .text {
+                p {
+                    font: 1rem;
+                    line-height: 1.25rem;
+                }
+            }
         }
     }
 }

@@ -40,13 +40,14 @@ h2 {
 .container-beige {
     background-color: $box-beige;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    width: auto;
+    width: 100%;
     padding: 4.375rem;
 }
 
 .container-beige-planes {
-    width: 100%;
+    width: 80%;
     height: auto;
     text-align: center;
 
