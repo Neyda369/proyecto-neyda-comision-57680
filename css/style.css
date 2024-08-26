@@ -153,7 +153,6 @@ h2 {
   font-size: 1.6rem;
   text-align: center;
   color: #9a5f3f;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   padding: 3rem; }
@@ -301,7 +300,8 @@ h2 {
   padding-left: 1.875rem; }
   .container-text .text h2 {
     font-size: 1.5rem;
-    color: #400414; }
+    color: #400414;
+    padding: 0rem 0rem 1rem 0rem; }
   .container-text .text p {
     font: 1rem;
     line-height: 1.5625rem; }
@@ -347,7 +347,10 @@ h2 {
 .card-content {
   padding: 1rem; }
   .card-content h3 {
+    font-family: "Paprika", system-ui;
     font-size: 1.2rem;
+    text-align: start;
+    color: #400414;
     margin-bottom: .5rem; }
   .card-content p {
     font-size: 1rem;
@@ -448,8 +451,7 @@ h2 {
 @media (max-width: 320px) {
   .container-text .text h2 {
     font-size: 1rem;
-    padding: 0rem 1rem 1rem 1rem;
-    color: #400414; } }
+    padding: 0rem 1rem 1rem 1rem; } }
 
 @media (max-width: 425px) {
   .article-container {
@@ -498,6 +500,13 @@ h2 {
   .article-container {
     grid-template-columns: 1fr;
     width: 80%; }
-    .article-container .container-text .text p {
-      font: 1rem;
-      line-height: 1.25rem; } }
+  .container-text .text p {
+    font: 1rem;
+    line-height: 1.25rem; } }
+
+@media (max-width: 1150px) {
+  .container-beige {
+    padding: 2rem; }
+  .container-beige-planes {
+    width: 100%;
+    height: auto; } }

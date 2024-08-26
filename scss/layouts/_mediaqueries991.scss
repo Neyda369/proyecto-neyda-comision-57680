@@ -2,14 +2,13 @@
     .article-container {
         grid-template-columns: 1fr;
         width: 80%;
-
-        .container-text {
-            .text {
-                p {
-                    font: 1rem;
-                    line-height: 1.25rem;
-                }
+    }
+    .container-text {
+        .text {
+            p {
+                font: 1rem;
+                line-height: 1.25rem;
             }
         }
-    }
+}
 }

@@ -31,7 +31,6 @@
 
 h2 {
     @include font ($txt-paprika, 1.6rem, center, map-get($txt-color, gold));
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
     padding: 3rem;
