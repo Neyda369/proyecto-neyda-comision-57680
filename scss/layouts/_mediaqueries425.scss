@@ -1,11 +1,11 @@
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     .article-container {
         width: 100%;
         padding: 0rem;
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     .article-container {
         .img-left {
             img {
@@ -18,37 +18,29 @@
     }
 }
 
-
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     .section-beige {
         padding: 1rem 0rem 1rem 0rem;
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     .section-white {
         padding: 1rem 0rem 1rem 0rem;
     }
 }
 
-
-
-
-@media (max-width: 425px) {
-    .article-container {
-        padding: .5rem auto;
-    }
-        
-
+@media (max-width: 426px) {
     .container-text {
-        
-        .text {
-            text-align: center;
-            padding: 0;
-            h2 {
-                font-size: 1.2rem;
-                color: map-get($txt-color, wine);
-            }
+        padding: 0;
+    }
+
+    .text {
+        text-align: start;
+        padding: 0;
+
+        h2 {
+            font-size: .5rem;
         }
     }
 }
