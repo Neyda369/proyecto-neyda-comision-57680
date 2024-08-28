@@ -20,16 +20,17 @@
         @include img(400px, 200px, cover);
     }
 }
-    .card-content {
-        padding: 1rem;
 
-        h3 {
-            @include font ($txt-paprika, 1.2rem, start, map-get($txt-color, wine) );
-            margin-bottom: .5rem;
-}
+.card-content {
+    padding: 1rem;
 
-        p {
-            font-size: 1rem;
-            line-height: 1.4;
-        }
+    h3 {
+        @include font ($txt-paprika, 1.2rem, start, map-get($txt-color, wine));
+        margin-bottom: .5rem;
     }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+}

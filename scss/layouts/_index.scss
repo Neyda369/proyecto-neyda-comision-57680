@@ -59,7 +59,7 @@ h2 {
     }
  
     h3 {
-        @include font ($txt-paprika, 1.375rem, center, map-get($txt-color, wine));
+        @include font ($txt-paprika, 1.2rem, center, map-get($txt-color, wine));
         padding: .625rem;
     }
 }
