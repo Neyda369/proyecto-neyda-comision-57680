@@ -268,15 +268,14 @@ h2 {
   place-items: center;
   font-family: "Paprika", system-ui;
   display: grid;
-  padding: 3rem; }
+  padding: 2.5rem; }
 
 .article-container {
   width: 100%;
-  max-width: 73rem;
+  max-width: 80rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
-  /* overflow-x: hidden; */
   padding: 1rem auto;
   align-items: center;
   justify-content: center; }
@@ -303,7 +302,7 @@ h2 {
     color: #400414;
     padding: 0rem 0rem 1rem 0rem; }
   .container-text .text p {
-    font: 1rem;
+    font-size: 1rem;
     line-height: 1.5625rem; }
 
 .section-white {
@@ -348,7 +347,7 @@ h2 {
   padding: 1rem; }
   .card-content h3 {
     font-family: "Paprika", system-ui;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: start;
     color: #400414;
     margin-bottom: .5rem; }

@@ -25,7 +25,7 @@
     padding: 1rem;
 
     h3 {
-        @include font ($txt-paprika, 1.2rem, start, map-get($txt-color, wine));
+        @include font ($txt-paprika, 1rem, start, map-get($txt-color, wine));
         margin-bottom: .5rem;
     }
 
