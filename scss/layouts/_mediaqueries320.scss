@@ -8,3 +8,22 @@
         }
     }
 }
+
+@media (max-width: 320px) {
+    .carousel-item {
+        height: 400px;
+    }
+}
+
+@media (max-width: 320px) {
+    .name-co {
+        @include font ($txt-italiano, 3rem, center, white);
+        font-weight: 200;
+    }
+
+    .parrafo-co {
+        @include font ($txt-paprika, .5rem, center, white);
+        margin-bottom: 1rem;
+    }
+
+}

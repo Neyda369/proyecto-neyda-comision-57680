@@ -120,47 +120,38 @@ hr {
   width: 70%;
   margin: auto; }
 
-.hero {
-  width: 100%;
-  height: 70vh;
-  background-image: url("../assets/img/terapias/masaje-3.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover; }
+.carousel-item {
+  height: 500px; }
 
-.container {
-  width: 90%;
+.carousel-item img {
   height: 100%;
-  max-width: 75rem;
-  min-width: 10rem;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
-  .container .info h1 {
-    font-family: "Italianno", cursive;
-    font-size: 5rem;
-    text-align: center;
-    color: white;
-    font-weight: 200; }
-  .container .info p {
-    font-family: "Paprika", system-ui;
-    font-size: 1.5rem;
-    text-align: center;
-    color: white;
-    margin-bottom: 1rem; }
-  .container .info .p-hero {
-    font-family: Arial;
-    font-size: 1.2rem;
-    text-align: center;
-    color: white; }
+  object-fit: cover; }
+
+.name-co {
+  font-family: "Italianno", cursive;
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+  font-weight: 200; }
+
+.parrafo-co {
+  font-family: "Paprika", system-ui;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  margin-bottom: 1rem; }
+
+.p-hero {
+  font-family: Arial;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white; }
 
 h2 {
   font-family: "Paprika", system-ui;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   text-align: center;
-  color: #726006;
+  color: #400414;
   font-weight: 400;
   line-height: normal;
   padding: 3rem; }
@@ -459,6 +450,24 @@ h2 {
   .container-text .text h2 {
     font-size: 1rem;
     padding: 0rem 1rem 1rem 1rem; } }
+
+@media (max-width: 320px) {
+  .carousel-item {
+    height: 400px; } }
+
+@media (max-width: 320px) {
+  .name-co {
+    font-family: "Italianno", cursive;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    font-weight: 200; }
+  .parrafo-co {
+    font-family: "Paprika", system-ui;
+    font-size: 0.5rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem; } }
 
 @media (max-width: 426px) {
   .article-container {

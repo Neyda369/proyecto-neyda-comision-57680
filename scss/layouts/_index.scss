@@ -1,36 +1,21 @@
-.hero {
-    @include img-fondo (("../assets/img/terapias/masaje-3.jpg"), 70vh);
+.name-co {
+    @include font ($txt-italiano, 5rem, center, white);
+    font-weight: 200;
 }
 
-.container {
-    width: 90%;
-    height: 100%;
-    max-width: 75rem;
-    min-width: 10rem;
-    margin: 0 auto;
-    @include flex (center, center);
-    text-align: center;
-
-    .info {
-
-        h1 {
-            @include font ($txt-italiano, 5rem, center, white);
-            font-weight: 200;
-        }
-
-        & p {
-            @include font ($txt-paprika, 1.5rem, center, white);
-            margin-bottom: 1rem;
-        }
-
-        & .p-hero {
-            @include font (Arial, 1.2rem, center, white);
-        }
-    }
+.parrafo-co {
+    @include font ($txt-paprika, 1rem, center, white);
+    margin-bottom: 1rem;
 }
+
+.p-hero {
+    @include font (Arial, 1.5rem, center, white);
+}
+
+
 
 h2 {
-    @include font ($txt-paprika, 1.6rem, center, map-get($txt-color, gold));
+    @include font ($txt-paprika, 1.2rem, center, map-get($txt-color, wine));
     font-weight: 400;
     line-height: normal;
     padding: 3rem;
@@ -57,7 +42,7 @@ h2 {
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
         }
     }
- 
+
     h3 {
         @include font ($txt-paprika, 1.2rem, center, map-get($txt-color, wine));
         padding: .625rem;
@@ -87,7 +72,7 @@ h2 {
         &:hover img {
             transform: scale(1.25);
         }
-        
+
         img {
             @include img (100%, 100%, cover);
             transition: 3s;
