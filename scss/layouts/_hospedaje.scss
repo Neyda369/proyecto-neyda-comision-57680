@@ -43,7 +43,7 @@
     .section-beige {
         width: 100%;
         height: auto;
-        background-color: $box-beige;
+        background-image: $gradient-beige;
         margin-top: 3rem;
         place-items: center;
         font-family: $txt-paprika;
@@ -100,5 +100,5 @@
 
     .section-white {
         @extend .section-beige;
-        background-color: $box-white;
+        background-image: $gradiente-white2;
     }

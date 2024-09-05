@@ -13,10 +13,21 @@ h2 {
     font-weight: 800;
     padding: 3rem;
     text-align: center;
-    background-image: linear-gradient(to left top, #370819, #410d20, #4b1227, #55182e, #5f1d36, #692841, #72324d, #7c3d59, #874f6b, #91607c, #9b728d, #a6849d);
-    background-clip: text;
-    color: transparent;
-    
+}
+
+.card-container-index {
+    @include flex (center, center);
+    flex-wrap: wrap;
+}
+
+.card-content-index {
+    padding: 1rem;
+    text-align: center;
+
+    h3 {
+        @include font ($txt-paprika, 1rem, center, map-get($txt-color, wine));
+        margin-bottom: .5rem;
+    }
 }
 
 .content-section {
@@ -25,8 +36,12 @@ h2 {
     align-items: center;
     gap: 10px;
     padding: 2.5rem;
-    background-image: $gradient-white;
-    
+    background-image: $gradiente-white2;
+}
+
+.content-section-beige {
+    @extend .content-section;
+    background-image: $gradient-beige;
 }
 
 .text-content {
@@ -36,7 +51,7 @@ h2 {
     p {
         font-family: "Paprika", system-ui;
         font-size: 1.375rem;
-        color: #400414;
+        color: map-get($txt-color, wine);
         padding: .625rem;
     }
 }
@@ -58,41 +73,12 @@ h2 {
     }
 }
 
-.content-section-beige {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 10px;
-    padding: 2.5rem;
-    background-color: $box-beige;
-    
-}
-
 .container-beige {
-    background-image: linear-gradient(to right bottom, #e7dace, #e1d2c3, #dbcab8, #d5c2ad, #cfbaa2, #c4ad93, #b9a084, #ae9475, #9c805f, #8a6c4b, #785936, #664723);
-    display: flex;
+    @include flex (center, center);
+    background-image: $gradient-beige;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     height: auto;
     padding: 2rem;
     text-align: center;
-
 }
-
-.card-container-index {
-    @include flex (center, center);
-    flex-wrap: wrap;
-}
-
-.card-content-index {
-    padding: 1rem;
-    text-align: center;
-
-    h3 {
-        @include font ($txt-paprika, 1rem, center, map-get($txt-color, wine));
-        margin-bottom: .5rem;
-    }
-}
-
