@@ -13,11 +13,17 @@
     background-color: $box-beige;
     border: .5rem;
     overflow: hidden;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.164);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     margin: 20px;
 
     img {
         @include img(400px, 200px, cover);
+        max-width: 100%;
+    }
+
+    &:hover {
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%);
     }
 }
 
