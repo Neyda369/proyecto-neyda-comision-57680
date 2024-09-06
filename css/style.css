@@ -108,7 +108,7 @@ i {
   font-size: 1.5rem; }
 
 .rights {
-  padding: .9375rem .625rem;
+  padding: .625rem;
   text-align: center; }
   .rights small {
     font-size: .9375rem;
@@ -143,12 +143,11 @@ hr {
 
 h2 {
   font-family: "Paprika", system-ui;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
   color: #400414;
   font-weight: 800;
-  padding: 3rem;
-  text-align: center; }
+  padding: 3rem; }
 
 .card-container-index {
   display: flex;
@@ -268,7 +267,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
-  padding: 1rem auto;
+  padding: 2rem auto;
   align-items: center;
   justify-content: center; }
   .article-container .img-left {
@@ -441,7 +440,7 @@ h2 {
     font-weight: bold;
     background-image: linear-gradient(to right, #2e0610, #4c1c1c, #683525, #82512e, #977039, #996d3e, #9b6b43, #9c6948, #7d4b47, #53343f, #2a212a, #090909);
     background-size: 300%;
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: gradient-animation 5s ease-in-out infinite; }
 
@@ -458,16 +457,11 @@ h2 {
     text-align: center;
     color: rgba(0, 0, 0, 0.788); }
 
-@media (max-width: 320px) {
-  .container-text .text h2 {
-    font-size: 1rem;
-    padding: 0rem 1rem 1rem 1rem; } }
-
-@media (max-width: 320px) {
+@media (max-width: 321px) {
   .carousel-item {
     height: 400px; } }
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
   .name-co {
     font-family: "Italianno", cursive;
     font-size: 3rem;
@@ -482,9 +476,16 @@ h2 {
     margin-bottom: 1rem; } }
 
 @media (max-width: 426px) {
+  .container-text .text h2 {
+    font-size: 1.1rem;
+    padding: 0rem 1rem 1rem 1rem; }
+  .container-text .text p {
+    font-size: 0.8rem; } }
+
+@media (max-width: 426px) {
   .article-container {
     width: 100%;
-    padding: 0rem; } }
+    padding: 1rem 0rem; } }
 
 @media (max-width: 426px) {
   .article-container .img-left img {
@@ -509,6 +510,19 @@ h2 {
     padding: 0; }
     .text h2 {
       font-size: .5rem; } }
+
+@media (max-width: 426px) {
+  .contact {
+    padding: .5rem .5rem 1rem 0.5rem; } }
+
+@media (max-width: 426px) {
+  .contact-form-txt {
+    padding: .9rem;
+    margin-bottom: 0rem; } }
+
+@media (max-width: 426px) {
+  .contact-suscrib {
+    margin-top: 2.5rem; } }
 
 @media (max-width: 473px) {
   .contact-form {

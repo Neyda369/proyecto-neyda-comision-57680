@@ -33,7 +33,6 @@
         height: 100%;
         margin-top: .625rem;
     }
-
 }
 
 .contact-form {
@@ -95,7 +94,7 @@
         font-weight: bold;
         background-image: linear-gradient(to right, #2e0610, #4c1c1c, #683525, #82512e, #977039, #996d3e, #9b6b43, #9c6948, #7d4b47, #53343f, #2a212a, #090909);
         background-size: 300%;
-        -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         animation: gradient-animation 5s ease-in-out infinite;
         

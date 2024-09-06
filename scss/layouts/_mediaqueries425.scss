@@ -1,7 +1,22 @@
 @media (max-width: 426px) {
+    .container-text {
+        .text {
+            h2 {
+                font-size: 1.1rem;
+                padding: 0rem 1rem 1rem 1rem;
+            }
+
+            p {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 426px) {
     .article-container {
         width: 100%;
-        padding: 0rem;
+        padding: 1rem 0rem;
     }
 }
 
@@ -42,5 +57,24 @@
         h2 {
             font-size: .5rem;
         }
+    }
+}
+
+@media (max-width: 426px) {
+    .contact {
+        padding: .5rem .5rem 1rem 0.5rem;
+    }
+}
+
+@media (max-width: 426px) {
+    .contact-form-txt {
+        padding: .9rem;
+        margin-bottom: 0rem;
+    }
+}
+
+@media (max-width: 426px) {
+    .contact-suscrib {
+        margin-top: 2.5rem;
     }
 }

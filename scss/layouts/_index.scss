@@ -9,10 +9,9 @@
 }
 
 h2 {
-    @include font ($txt-paprika, 1.5rem, center, map-get($txt-color, wine));
+    @include font ($txt-paprika, 1.3rem, center, map-get($txt-color, wine));
     font-weight: 800;
     padding: 3rem;
-    text-align: center;
 }
 
 .card-container-index {
